@@ -2,7 +2,7 @@
 
 Atlas Fon Takip Pro V12 için hazırlanan ürün tanıtım sayfasıdır.
 
-Canlı site: https://atlas-fon-takip-pro.kesergen.chatgpt.site
+[Ürün tanıtım sayfasına git](https://atlas-fon-takip-pro.kesergen.chatgpt.site)
 
 ## Öne çıkan içerikler
 
