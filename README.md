@@ -6,6 +6,8 @@ FinMercek; fon verilerini, hisse radarını, KAP gelişmelerini, teknik
 göstergeleri ve tarihsel fiyatları tek bir Windows masaüstü uygulamasında
 buluşturan finansal analiz çalışma alanıdır.
 
+[FinMercek tanıtım sayfasını aç](https://kesergen-svg.github.io/FinMercek/)
+
 ## Öne çıkan özellikler
 
 - Gün Sonu Hisse Radarı
