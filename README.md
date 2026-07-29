@@ -1,31 +1,37 @@
-# Atlas Fon Takip Pro — Tanıtım Sitesi
+# FinMercek
 
-Atlas Fon Takip Pro V12 için hazırlanan ürün tanıtım sayfasıdır.
+**Piyasayı Yakından Gör**
 
-[Ürün tanıtım sayfasına git](https://atlas-fon-takip-pro.kesergen.chatgpt.site)
+FinMercek; fon verilerini, hisse radarını, KAP gelişmelerini, teknik
+göstergeleri ve tarihsel fiyatları tek bir Windows masaüstü uygulamasında
+buluşturan finansal analiz çalışma alanıdır.
 
-## Öne çıkan içerikler
+## Öne çıkan özellikler
 
-- 24 portföy yöneticisi ve 314 takip fonu
-- 7.478 fon-hisse pozisyonu
-- 617 BIST hissesini tarayan Gün Sonu Hisse Radarı
-- Teknik analiz, fon desteği, yönetici ilgisi ve şirket KAP etkisi
-- KAP teknik teyit kapısı ve momentum ısınma cezası
-- Günlük Atlas Bülteni
-- TXT, PDF, Word ve Excel rapor çıktıları
+- Gün Sonu Hisse Radarı
+- Fon portföyleri ve hisse taşıyan fonlar
+- Fiyat ve teknik analiz
+- KAP etki analizi
+- Günlük, haftalık ve aylık tarihsel veriler
+- Şirket adı veya hisse koduyla arama
+- FinMercek puanı, teknik sinyal ve risk notları
+- PDF ve CSV dışa aktarma
+- Yerel veri arşivi
 
-## Yerel çalıştırma
+## Tanıtım sitesi
 
-Node.js 22 veya daha yeni bir sürüm gerekir.
+Bu depo FinMercek ürün tanıtım sitesini içerir. Site bağımlılık veya derleme
+adımı gerektirmeyen HTML, CSS ve JavaScript ile hazırlanmıştır.
+
+Yerel olarak görüntülemek için `index.html` dosyasını açabilir veya:
 
 ```bash
-npm install
-npm run dev
+python -m http.server 8000
 ```
 
-Bu depo yalnızca tanıtım sitesini içerir. Atlas Fon Takip Pro masaüstü
-uygulamasının kaynak kodu ve veri dosyaları bu depoda bulunmaz.
+komutunu çalıştırıp `http://localhost:8000` adresini ziyaret edebilirsiniz.
 
 ## Uyarı
 
-Veriler bilgilendirme amaçlıdır. Yatırım tavsiyesi değildir.
+FinMercek tarafından sunulan içerikler bilgilendirme amaçlıdır. Yatırım
+tavsiyesi değildir.
