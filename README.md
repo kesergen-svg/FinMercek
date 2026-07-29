@@ -1,13 +1,12 @@
 # FinMercek
-Ürün Tanıtım sayfasına gidebilirsiniz. (https://kesergen-svg.github.io/FinMercek/)
 
 **Piyasayı Yakından Gör**
+
+[Ürün tanıtım sayfasına gidebilirsiniz.](https://kesergen-svg.github.io/FinMercek/)
 
 FinMercek; fon verilerini, hisse radarını, KAP gelişmelerini, teknik
 göstergeleri ve tarihsel fiyatları tek bir Windows masaüstü uygulamasında
 buluşturan finansal analiz çalışma alanıdır.
-
-[FinMercek tanıtım sayfasını aç](https://kesergen-svg.github.io/FinMercek/)
 
 ## Öne çıkan özellikler
 
