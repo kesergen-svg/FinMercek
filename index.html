@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071426">
+  <meta name="description" content="FinMercek; fon verileri, hisse radarı, KAP analizi ve teknik göstergeleri tek masaüstü uygulamasında bir araya getirir.">
+  <title>FinMercek — Piyasayı Yakından Gör</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="FinMercek ana sayfa">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64"><circle cx="28" cy="28" r="17"/><path d="m41 41 13 13"/><path class="trend" d="m17 34 8-9 7 5 9-12"/></svg>
+      </span>
+      <span><strong>FinMercek</strong><small>Piyasayı Yakından Gör</small></span>
+    </a>
+    <nav aria-label="Ana menü">
+      <a href="#ozellikler">Özellikler</a>
+      <a href="#radar">Hisse Radarı</a>
+      <a href="#kurulum">Kurulum</a>
+      <a class="nav-cta" href="#iletisim">Projeyi İncele</a>
+    </nav>
+    <button class="menu-button" type="button" aria-label="Menüyü aç" aria-expanded="false">☰</button>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-copy">
+        <span class="eyebrow"><i></i> Finansal analiz, daha net bir bakış</span>
+        <h1>Veriyi izleme.<br><span>Anlamını gör.</span></h1>
+        <p>Fon hareketlerinden hisse radarına, KAP gelişmelerinden teknik sinyallere kadar piyasanın farklı katmanlarını tek ekranda buluştur.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#ozellikler">FinMercek’i Keşfet <span>→</span></a>
+          <a class="button secondary" href="#radar">Ekranları İncele</a>
+        </div>
+        <div class="trust-row">
+          <span><b>✓</b> Windows masaüstü</span>
+          <span><b>✓</b> Yerel veri arşivi</span>
+          <span><b>✓</b> PDF & CSV çıktısı</span>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="FinMercek uygulama önizlemesi">
+        <div class="orb"></div>
+        <div class="app-window">
+          <div class="window-bar"><span></span><span></span><span></span><em>FinMercek V12</em></div>
+          <div class="app-body">
+            <aside>
+              <div class="mini-logo">F</div>
+              <i></i><i></i><i class="active"></i><i></i><i></i><i></i>
+            </aside>
+            <div class="dashboard">
+              <div class="dash-head"><span>Gün Sonu Radarı</span><b>Veriyi Yenile</b></div>
+              <div class="metrics">
+                <div><small>RADAR ADAYI</small><strong>446</strong></div>
+                <div><small>GÜÇLÜ</small><strong class="green">5</strong></div>
+                <div><small>OLUMLU</small><strong>8</strong></div>
+                <div><small>TAKİP LİSTEM</small><strong>3</strong></div>
+              </div>
+              <div class="chart-card">
+                <div class="chart-label"><span>FinMercek Skoru</span><b>91</b></div>
+                <svg viewBox="0 0 600 190" preserveAspectRatio="none" aria-hidden="true">
+                  <defs><linearGradient id="fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f75ff" stop-opacity=".5"/><stop offset="1" stop-color="#2f75ff" stop-opacity="0"/></linearGradient></defs>
+                  <path class="grid" d="M0 35h600M0 90h600M0 145h600"/>
+                  <path class="area" d="M0 150 C45 155 55 125 95 132 S150 110 185 120 S235 85 270 96 S315 70 350 75 S400 45 445 58 S505 24 545 35 S575 12 600 16 V190 H0Z"/>
+                  <path class="line" d="M0 150 C45 155 55 125 95 132 S150 110 185 120 S235 85 270 96 S315 70 350 75 S400 45 445 58 S505 24 545 35 S575 12 600 16"/>
+                </svg>
+              </div>
+              <div class="rows">
+                <p><span>ENTRA</span><em>Güçlü</em><b>91</b></p>
+                <p><span>TNZTP</span><em>Güçlü</em><b>89</b></p>
+                <p><span>ANHYT</span><em>Olumlu</em><b>89</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="float-card signal"><span>Teknik Sinyal</span><b><i></i> Güçlü görünüm</b></div>
+        <div class="float-card archive"><span>Tarihsel Arşiv</span><b>1 yıl tamamlandı</b></div>
+      </div>
+    </section>
+
+    <section class="proof">
+      <div><strong>446</strong><span>Radar adayı</span></div>
+      <div><strong>190+</strong><span>KAP şirket takibi</span></div>
+      <div><strong>1 Yıl</strong><span>Tarihsel arşiv</span></div>
+      <div><strong>4 Format</strong><span>Rapor çıktısı</span></div>
+    </section>
+
+    <section class="section intro" id="ozellikler">
+      <div class="section-heading">
+        <span class="eyebrow">TEK PLATFORM, BÜTÜNSEL BAKIŞ</span>
+        <h2>Piyasanın farklı sinyalleri,<br><span>aynı mercek altında.</span></h2>
+        <p>FinMercek yalnızca veriyi sıralamaz; fon ilgisini, teknik görünümü ve şirket gelişmelerini birlikte okumayı kolaylaştırır.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature feature-large">
+          <span class="icon">⌁</span>
+          <h3>Gün Sonu Hisse Radarı</h3>
+          <p>Hisseleri teknik yapı, fon desteği ve günlük değişim üzerinden tarar; güçlüden riskliye anlaşılır seviyelerde gruplar.</p>
+          <div class="pills"><span>Güçlü</span><span>Olumlu</span><span>Orta</span><span>Riskli</span></div>
+        </article>
+        <article class="feature">
+          <span class="icon">◫</span>
+          <h3>Fonların İçini Gör</h3>
+          <p>Fon portföylerini, hisse taşıyan fonları ve en çok taşınan varlıkları tek bakışta incele.</p>
+        </article>
+        <article class="feature">
+          <span class="icon">⌁</span>
+          <h3>Fiyat & Teknik Analiz</h3>
+          <p>RSI, hareketli ortalamalar ve fiyat davranışını sade sinyallerle değerlendir.</p>
+        </article>
+        <article class="feature">
+          <span class="icon">◎</span>
+          <h3>KAP Etki Analizi</h3>
+          <p>Şirket bildirimlerini radar puanıyla birlikte ele alarak gelişmeleri bağlam içinde gör.</p>
+        </article>
+        <article class="feature">
+          <span class="icon">↗</span>
+          <h3>Tarihsel Veriler</h3>
+          <p>Günlük, haftalık ve aylık fiyatları grafik ve liste olarak incele; PDF veya CSV’ye aktar.</p>
+        </article>
+        <article class="feature feature-wide">
+          <div><span class="icon">✦</span><h3>FinMercek Yorumu</h3><p>Dağınık göstergeleri açık ve okunabilir bir özet altında birleştirir. Puan, teknik sinyal ve risk notları karar sürecine düzen kazandırır.</p></div>
+          <div class="score"><small>FİNMERCEK PUANI</small><strong>84<em>/100</em></strong><span><i></i></span><b>Olumlu görünüm</b></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section radar-section" id="radar">
+      <div class="section-heading left">
+        <span class="eyebrow">GÜN SONU RADARI</span>
+        <h2>Kalabalığın içinden<br><span>izlemeye değer olanı bul.</span></h2>
+        <p>Yüzlerce hisseyi aynı ölçütlerle tarayan radar; sonucu sade seviyelere, puanlara ve izlenebilir değişimlere dönüştürür.</p>
+        <ul>
+          <li><b>01</b><span><strong>Çok katmanlı puanlama</strong>Teknik, fon ve KAP verilerini birlikte değerlendirir.</span></li>
+          <li><b>02</b><span><strong>Takip listesi</strong>Seçtiğin hisselerdeki puan ve seviye değişimlerini izler.</span></li>
+          <li><b>03</b><span><strong>Şirket adıyla arama</strong>Kodu bilmeden, doğrudan şirket adıyla sonuca ulaşırsın.</span></li>
+        </ul>
+      </div>
+      <div class="radar-ring">
+        <div class="sweep"></div>
+        <div class="ring r1"></div><div class="ring r2"></div><div class="ring r3"></div>
+        <span class="dot d1"></span><span class="dot d2"></span><span class="dot d3"></span><span class="dot d4"></span>
+        <div class="radar-center"><strong>446</strong><span>HİSSE TARANDI</span></div>
+      </div>
+    </section>
+
+    <section class="section install" id="kurulum">
+      <div class="install-card">
+        <div>
+          <span class="eyebrow">WINDOWS MASAÜSTÜ UYGULAMASI</span>
+          <h2>Kur, aç ve piyasayı<br><span>yakından gör.</span></h2>
+          <p>FinMercek kurulum paketi gerekli uygulama bileşenlerini beraberinde getirir. Verilerin ve arşivin kendi bilgisayarında kalır.</p>
+          <div class="install-tags"><span>Windows 10/11</span><span>Kolay kurulum</span><span>Yerel arşiv</span></div>
+        </div>
+        <div class="setup-visual">
+          <span class="brand-mark large" aria-hidden="true"><svg viewBox="0 0 64 64"><circle cx="28" cy="28" r="17"/><path d="m41 41 13 13"/><path class="trend" d="m17 34 8-9 7 5 9-12"/></svg></span>
+          <strong>FinMercek</strong><small>Kurulum Sihirbazı</small><div class="progress"><i></i></div><em>Kuruluma hazır</em>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta" id="iletisim">
+      <span class="brand-mark large" aria-hidden="true"><svg viewBox="0 0 64 64"><circle cx="28" cy="28" r="17"/><path d="m41 41 13 13"/><path class="trend" d="m17 34 8-9 7 5 9-12"/></svg></span>
+      <h2>Piyasaya daha yakından bak.</h2>
+      <p>Fon, hisse, KAP ve teknik analiz verilerini tek bir düzenli çalışma alanında birleştir.</p>
+      <a class="button primary" href="https://github.com/kesergen-svg/atlas-fon-takip-pro-site" target="_blank" rel="noreferrer">GitHub Projesini İncele <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 64 64"><circle cx="28" cy="28" r="17"/><path d="m41 41 13 13"/><path class="trend" d="m17 34 8-9 7 5 9-12"/></svg></span><span><strong>FinMercek</strong><small>Piyasayı Yakından Gör</small></span></a>
+    <p>FinMercek tarafından sunulan içerikler bilgilendirme amaçlıdır ve yatırım tavsiyesi değildir.</p>
+    <span>© <span id="year"></span> FinMercek</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
