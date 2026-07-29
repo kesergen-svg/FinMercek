@@ -1,4 +1,5 @@
 # FinMercek
+Ürün Tanıtım sayfasına gidebilirsiniz. (https://kesergen-svg.github.io/FinMercek/)
 
 **Piyasayı Yakından Gör**
 
